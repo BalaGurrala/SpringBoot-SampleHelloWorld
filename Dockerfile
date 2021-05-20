@@ -1,4 +1,4 @@
 FROM openjdk:8
 COPY target/HelloWorld.jar	HelloWorld.jar
-EXPOSE 8080
-ENTRYPOINT ["java","-jar","SpringSampleDocker.jar"]
+EXPOSE 8090
+ENTRYPOINT ["java","-jar","HelloWorld.jar"]
